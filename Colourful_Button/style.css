@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(35, 34, 34);
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.btn-container{
+    background: linear-gradient(to right, red, blue);
+    padding: 4px;
+}
+button{
+    background: transparent;
+    background: black;
+    padding: 30px 60px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: .1em;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    /* border-image: linear-gradient(to right, red, blue) 1;
+    border-image-slice: 1; */
+}
+.btn-container:hover{
+    color: rgb(79, 0, 128);
+    padding: 5px 5px ;
+    background: linear-gradient(to left, red, blue);    
+}
+.btn-container:hover button{
+    color: rgb(192, 193, 255);
+    /* padding: 35px 65px ; */
+    font-size: 22px;
+}
