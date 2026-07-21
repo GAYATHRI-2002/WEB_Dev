@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color: rgb(253, 239, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+.tipdiv{
+    background-color: aliceblue;
+    text-align: left;
+    padding: 50px;
+    border: 1px solid pink;
+    box-shadow: 10px 5px 5px 5px;
+    border-radius: 16px;
+}
+.tipdiv h1{
+
+    text-align: center;
+    margin: 5px;
+    
+}
+.tipdiv p{
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+input{
+    margin-top: 3px;
+    width: 100%;
+    background: none;
+    background-color: rgb(244, 221, 247);
+    border: 1px solid black;
+    height: 40px;
+    
+
+}
+label{
+    font-size: 20px
+}
+
+button{
+    height: 40px;
+    width: 100%;
+    background-color: #c856f5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
